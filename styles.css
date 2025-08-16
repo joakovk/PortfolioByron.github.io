@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: #0d1117;
+  color: #e6edf3;
+  line-height: 1.6;
+}
+
+header {
+  background: #161b22;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #30363d;
+}
+
+header h3 {
+  color: #58a6ff;
+}
+
+nav a {
+  color: #c9d1d9;
+  text-decoration: none;
+  margin-left: 1rem;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #58a6ff;
+}
+
+.profile-Section {
+  display: flex;
+  flex-direction: row-reverse; /* Imagen a la derecha */
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: left;
+  padding: 4rem 2rem;
+  background: linear-gradient(to right, #0d1117, #161b22);
+  gap: 30px;
+}
+
+.profile-Section img {
+  background-color: #48e4;
+  border-radius: 50%;
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border: 2px solid #58a6ff;
+}
+
+.profile-info {
+  max-width: 600px;
+}
+
+h1 {
+  color: #58a6ff;
+  font-size: 36px;
+  justify-self: center;
+}
+
+.profile-info .job {
+  font-size: 22px;
+  color: #e6edf3;
+  justify-self: center;
+}
+
+.profile-info .description {
+  color: #8b949e;
+  font-size: 16px;
+  justify-self: center;
+}
+
+.section {
+  padding: 3rem 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+#sobre-mi {
+  border-radius: 8px;
+  padding: 2rem;
+}
+.proyectos {
+  
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.proyecto {
+  background: #21262d;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #30363d;
+}
+
+.proyecto h3 {
+  margin-bottom: 0.5rem;
+  color: #58a6ff;
+}
+
+.contacto a {
+  color: #58a6ff;
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #161b22;
+  border-top: 1px solid #30363d;
+  font-size: 0.9rem;
+  color: #8b949e;
+}
